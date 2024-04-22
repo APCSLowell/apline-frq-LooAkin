@@ -1,9 +1,12 @@
 public class APLine
 {
+  private double aVal;
+  private double bVal;
+  private double cVal;
   public APLine(double a, double b, double c){
-    private double aVal = a;
-    private double bVal = b;
-    private double cVal = c;
+    aVal = a;
+    bVal = b;
+    cVal = c;
   }
   public double getSlope(){
     double slope = -a/b;
