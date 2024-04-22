@@ -1,6 +1,6 @@
 public class APLine
 {
-  public void APLine(double a, double b, double c){
+  public APLine(double a, double b, double c){
     private double aVal = a;
     private double bVal = b;
     private double cVal = c;
